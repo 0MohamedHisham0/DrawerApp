@@ -10,7 +10,6 @@ import com.bumptech.glide.Glide
 import com.m.hisham.painter.R
 import kotlinx.android.synthetic.main.activity_splash.*
 
-
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

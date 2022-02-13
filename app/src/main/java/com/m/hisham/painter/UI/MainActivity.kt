@@ -34,10 +34,7 @@ class MainActivity : AppCompatActivity() {
     private fun initOnClickButtons() {
         var currentColor = "#000000"
 
-        restCheckedButton()
-
         //Default Paint Selected
-
         canvas.drawWithPaint()
         changeIconColorFromImageView(paint, R.color.black)
 
@@ -167,7 +164,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         //seekBar
-        //for seekBar >> paint size
         seekBar.progress = 30
         canvas.strokeWidth(seekBar.progress.toFloat())
         seekBar?.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
@@ -204,8 +200,6 @@ class MainActivity : AppCompatActivity() {
             changeIconColorFromImageView(line, R.color.DefaultIconColor)
             changeIconColorFromImageView(rectangle, R.color.DefaultIconColor)
             changeIconColorFromImageView(erase, R.color.DefaultIconColor)
-
-
         }
         if (view == line) {
             paint.background = null

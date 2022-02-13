@@ -99,7 +99,7 @@
                     android:layout_gravity="center|top"
                     android:layout_margin="7dp"
                     android:background="#353434"
-                    android:gravity="center"
+                    android:gravity="center|top"
                     android:textColor="#FFF"
                     app:carbon_cornerRadius="7dp"
                     app:carbon_rippleColor="@color/white" />
